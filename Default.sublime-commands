@@ -1,0 +1,37 @@
+[
+    {
+        "caption": "Insert DateTime",
+        "command": "insert_date_string",
+        "args": {
+            "target": "datetime"
+        }
+    },
+    {
+        "caption": "Insert Date",
+        "command": "insert_date_string",
+        "args": {
+            "target": "date"
+        }
+    },
+    {
+        "caption": "Insert Time",
+        "command": "insert_date_string",
+        "args": {
+            "target": "time"
+        }
+    },
+    {
+        "caption": "Insert Timestamp",
+        "command": "insert_date_string",
+        "args": {
+            "target": "timestamp"
+        }
+    },
+    {
+        "caption": "Insert Formatted DateTime",
+        "command": "insert_date_string",
+        "args": {
+            "target": "formatted"
+        }
+    }
+]

@@ -1,0 +1,20 @@
+# mutliple os matrix
+# https://docs.travis-ci.com/user/multi-os/#Python-example-(unsupported-languages)
+matrix:
+  include:
+    - os: linux
+      language: python
+    - os: osx
+      language: generic
+
+before_install:
+  - curl -OL https://raw.githubusercontent.com/SublimeText/UnitTesting/master/sbin/travis.sh
+
+install:
+  - sh travis.sh bootstrap
+
+script:
+  - sh travis.sh run_tests --coverage
+
+notifications:
+  email: false

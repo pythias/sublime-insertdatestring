@@ -1,0 +1,18 @@
+{
+  "name": "sublime-insert-date-string",
+  "version": "1.0.0",
+  "description": "Insert current date/time string",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pythias/sublime-insertdatestring.git"
+  },
+  "keywords": [
+    "datetime"
+  ],
+  "author": "pythias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pythias/sublime-insertdatestring/issues"
+  },
+  "homepage": "https://github.com/pythias/sublime-insertdatestring#readme"
+}

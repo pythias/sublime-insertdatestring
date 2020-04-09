@@ -1,0 +1,5 @@
+{
+    "formatDateTime": "%Y-%m-%d %H:%M:%S",
+    "formatDate": "%Y-%m-%d",
+    "formatTime": "%H:%M:%S"
+}
